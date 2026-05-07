@@ -158,8 +158,8 @@ const Qwen35ConfigGenerator = () => {
       '397b': {
         h100:  { bf16: { tp: 16, mem: 0.8 }, fp8: { tp: 8, mem: 0.8 } },
         h200:  { bf16: { tp: 8,  mem: 0.8 }, fp8: { tp: 8, ep: 8, mem: 0.8 } },
-        b200:  { bf16: { tp: 8,  mem: 0.8 }, fp8: { tp: 4, mem: 0.8 }, fp4: { tp: 4, mem: 0.85 } },
-        b300:  { bf16: { tp: 4,  mem: 0.8 }, fp8: { tp: 2, mem: 0.8 }, fp4: { tp: 2, mem: 0.8 } },
+        b200:  { bf16: { tp: 8,  mem: 0.8 }, fp8: { tp: 8, mem: 0.8 }, fp4: { tp: 8, mem: 0.85 } },
+        b300:  { bf16: { tp: 8,  mem: 0.8 }, fp8: { tp: 8, mem: 0.8 }, fp4: { tp: 8, mem: 0.8 } },
         gb200: { bf16: { tp: 4,  mem: 0.8 }, fp8: { tp: 4, mem: 0.8 }, fp4: { tp: 4, mem: 0.85 } },
         gb300: { bf16: { tp: 4,  mem: 0.8 }, fp8: { tp: 4, mem: 0.8 }, fp4: { tp: 4, mem: 0.8 } },
         mi300x: { bf16: { tp: 8, mem: 0.8 }, fp8: { tp: 4, mem: 0.8 } },
